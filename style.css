@@ -151,7 +151,7 @@ h2 {
     color: var(--white);
 }
 
-h4 {
+h3 {
     color: var(--yellow);
     font-weight: bold;
 }
@@ -175,12 +175,12 @@ h2 {
     margin-bottom: 2vw;
 }
 
-h3 {
+/* h3 {
     font-size: 1.5em;
     margin-bottom: 5vw;
-}
+} */
 
-h4 {
+h3 {
     font-size: 1.15em;
     font-weight: bold;
     margin-bottom: 1vw;
@@ -305,7 +305,7 @@ table {
     margin: 0 auto;
 }
 
-thead {
+th {
     background-color: var(--yellow);
     font-weight: bold;
     border: 2px solid var(--yellow);
@@ -376,7 +376,7 @@ footer p {
 
 /*-------------------- MEDIA QUERY (medium) --------------------------------*/
 @media screen and (min-width: 450px) {
-    h4 {
+    h3 {
         margin-bottom: 2%;
     }
 
@@ -426,10 +426,10 @@ footer p {
         margin: 3% 1% 3% 1%;
     }
 
-    #first-set h4,
-    #second-set h4,
-    #third-set h4,
-    #fourth-set h4 {
+    #first-set h3,
+    #second-set h3,
+    #third-set h3,
+    #fourth-set h3 {
         grid-column: 1/3;
     }
 
@@ -485,7 +485,7 @@ footer p {
         grid-column: 1/3;
     }
 
-    #table h4 {
+    #table h3 {
         font-weight: bold;
     }
 
@@ -524,7 +524,7 @@ footer p {
 }
 /*-------------------- MEDIA QUERY (large) ------------------------------------*/
 @media screen and (min-width: 620px) {
-    h4 {
+    h3 {
         text-align: center;
     }
 
@@ -571,10 +571,10 @@ footer p {
         margin: 0 1% 3vw 1%;
     }
 
-    #first-set h4,
-    #second-set h4,
-    #third-set h4,
-    #fourth-set h4 {
+    #first-set h3,
+    #second-set h3,
+    #third-set h3,
+    #fourth-set h3 {
         grid-column: 1/2;
     }
 
@@ -631,7 +631,7 @@ footer p {
         gap: 0 2%;
     }
 
-    #table h4 {
+    #table h3 {
         text-align: left;
     }
 
@@ -679,7 +679,7 @@ footer p {
         margin: 0 8%;
     }
 
-    h4 {
+    h3 {
         margin-bottom: 1vw;
     }
 
